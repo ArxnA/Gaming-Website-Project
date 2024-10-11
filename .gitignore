@@ -1,0 +1,4 @@
+/node_modules/*
+!node_modules/@fortawesome
+!node_modules/bootstrap
+!node_modules/jquery

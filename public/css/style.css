@@ -1,0 +1,1275 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0; }
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block; }
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */ }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */ }
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder; }
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */ }
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -0.25em; }
+
+sup {
+  top: -0.5em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */ }
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible; }
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none; }
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button; }
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em; }
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */ }
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline; }
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */ }
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */ }
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block; }
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item; }
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none; }
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none; }
+
+.text-white {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold; }
+
+.text-pink {
+  color: #ff04ab;
+  font-size: 25px;
+  font-weight: bold; }
+
+.fw-bold {
+  font-weight: bold; }
+
+* {
+  box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+body {
+  font-weight: 500;
+  background-color: #111a23;
+  font-family: "Poppins", sans-serif; }
+
+.sidebar {
+  width: 17%;
+  background-color: #202938;
+  padding-bottom: 15px;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  right: 0;
+  border-radius: 0 15px 15px 0; }
+  .sidebar__playtoo {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    .sidebar__playtoo-pic {
+      width: 55%; }
+    .sidebar__playtoo-text {
+      color: #fff;
+      font-size: 35px;
+      margin-top: 15px;
+      font-family: "Rubik", sans-serif; }
+  .sidebar__filter {
+    border-bottom: 3px solid #000; }
+    .sidebar__filter-title {
+      width: 95%;
+      padding: 20px;
+      background-color: #0761dc;
+      border-radius: 0 5px 5px 0; }
+    .sidebar__filter-text {
+      color: #fff;
+      display: block;
+      text-align: right;
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: 2px; }
+    .sidebar__filter-list {
+      width: 100%; }
+    .sidebar__filter-items {
+      width: 80%;
+      margin: 15px auto; }
+    .sidebar__filter-item {
+      width: 100%;
+      padding: 10px 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      opacity: 0.6;
+      gap: 10px;
+      color: #4c5564;
+      transition: all 0.3s ease-in; }
+      .sidebar__filter-item:hover {
+        color: #fff;
+        opacity: 1;
+        cursor: pointer; }
+    .sidebar__filter-icon {
+      width: 45px;
+      height: 50px;
+      background: url(../../public/images/sidebar-slider.png) no-repeat;
+      background-size: cover; }
+      .sidebar__filter-icon--1 {
+        background-position: -43px 0px; }
+      .sidebar__filter-icon--2 {
+        background-position: 0 0; }
+      .sidebar__filter-icon--3 {
+        background-position: -158px 0px; }
+      .sidebar__filter-icon--4 {
+        background-position: -80px 0px; }
+      .sidebar__filter-icon--5 {
+        background-position: -117px 0px; }
+    .sidebar__filter-description {
+      font-size: 14px;
+      font-weight: 600; }
+  .sidebar__friends {
+    padding: 25px 0; }
+    .sidebar__friends-content {
+      width: 80%;
+      margin: 10px auto; }
+    .sidebar__friends-head {
+      width: 100%;
+      color: #fff; }
+    .sidebar__friends-items {
+      margin-top: 15px; }
+    .sidebar__friends-item {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px; }
+    .sidebar__friends-info {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px; }
+    .sidebar__friends-image {
+      width: 40px;
+      height: 40px;
+      border: 1px solid #fff;
+      border-radius: 100%; }
+    .sidebar__friends-pic {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+    .sidebar__friends-text {
+      color: #4c5564;
+      font-size: 14px; }
+    .sidebar__friends-box {
+      width: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .sidebar__friends-icon {
+      color: #4c5564; }
+    .sidebar__friends-circle {
+      width: 12px;
+      height: 12px;
+      background-color: green;
+      border-radius: 100%; }
+  .sidebar__rocket {
+    width: 80%;
+    margin: 15px auto;
+    overflow: hidden;
+    transition: all 0.2s ease-in; }
+    .sidebar__rocket:hover {
+      border: 1px solid #0761dc;
+      padding: 4px;
+      cursor: pointer;
+      border-radius: 10px; }
+    .sidebar__rocket-pic {
+      width: 100%;
+      border-radius: 10px; }
+
+.header {
+  width: 100%;
+  height: 60px; }
+  .header__content {
+    padding: 10px 0;
+    width: 1400px;
+    margin: 0 auto;
+    height: 100%;
+    gap: 8px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .header__content-search {
+      display: flex;
+      position: relative; }
+    .header__content-input {
+      height: 100%;
+      background-color: #202938;
+      color: #fff;
+      padding: 10px 25px;
+      border-radius: 20px;
+      border: none;
+      font-size: 11px;
+      width: 400px; }
+    .header__content-circle {
+      width: 40px;
+      height: 40px;
+      background-color: #0761dc;
+      color: #fff;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 0; }
+    .header__content-bell {
+      width: 45px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative; }
+      .header__content-bell-icon {
+        font-size: 25px;
+        color: #fff; }
+      .header__content-bell-circle {
+        width: 20px;
+        height: 20px;
+        background-color: #0761dc;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        font-size: 10px;
+        position: absolute;
+        top: -2px;
+        right: 1px; }
+    .header__content-user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px; }
+      .header__content-user-text {
+        display: flex;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase; }
+      .header__content-user-pic {
+        width: 45px;
+        height: 45px;
+        border-radius: 100%;
+        border: 1px solid #0761dc;
+        padding: 1px; }
+      .header__content-user-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; }
+
+.slider {
+  width: 100%;
+  height: 600px; }
+  .slider__content {
+    width: 100%;
+    height: 100%; }
+    .slider__content-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+.popular {
+  width: 100%;
+  padding: 25px 0; }
+  .popular__content {
+    width: 1400px;
+    margin: 0 auto; }
+    .popular__content-items {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px; }
+    .popular__content-item {
+      width: 32%; }
+    .popular__content-image {
+      width: 100%;
+      height: 250px;
+      background: #202938;
+      border-radius: 8px;
+      padding: 15px;
+      position: relative;
+      overflow: hidden; }
+    .popular__content-pic {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 8px; }
+    .popular__content-shape {
+      width: 200px;
+      height: 100%;
+      background-color: #0761dc;
+      position: absolute;
+      top: 0;
+      right: 0;
+      clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+      transition: all 0.8s ease-in; }
+      .popular__content-shape:hover {
+        width: 100%;
+        cursor: pointer; }
+      .popular__content-shape--1 {
+        z-index: 10;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        font-weight: bold; }
+      .popular__content-shape--2 {
+        right: 10px;
+        background-color: #3379d8; }
+    .popular__content-info {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .popular__content-left {
+      width: 50%; }
+    .popular__content-title {
+      color: #fff;
+      font-size: 21px;
+      font-weight: bold; }
+    .popular__content-description {
+      font-size: 11px;
+      margin: 15px 0;
+      color: #fff; }
+    .popular__content-lists {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px; }
+    .popular__content-circle {
+      width: 20px;
+      height: 20px;
+      background-color: #202938;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 9px rgba(4, 150, 41, 0.993); }
+      .popular__content-circle-tiny {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(4, 150, 41, 0.993);
+        border-radius: 100%; }
+    .popular__content-rate, .popular__content-online {
+      font-size: 11px;
+      color: #fff; }
+    .popular__content-right {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px; }
+    .popular__content-match {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px; }
+    .popular__content-flag {
+      width: 15px; }
+    .popular__content-team {
+      color: #fff;
+      font-weight: bold; }
+    .popular__content-score {
+      color: #ffa500;
+      font-weight: bold; }
+
+.best {
+  width: 100%;
+  margin: 25px 0; }
+  .best__content {
+    width: 1400px;
+    margin: 0 auto; }
+    .best__content-main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px; }
+    .best__content-item {
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      position: relative; }
+    .best__content-picture {
+      width: 80%;
+      height: 230px;
+      border: 5px solid #fff;
+      border-radius: 25px;
+      overflow: hidden;
+      z-index: 10; }
+    .best__content-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.3s ease-in; }
+      .best__content-image:hover {
+        transform: scale(1.2);
+        cursor: pointer; }
+    .best__content-number {
+      width: 50px;
+      height: 70px;
+      display: inline-block;
+      background: url(/public/images/number.png) no-repeat;
+      background-size: 300px;
+      position: absolute;
+      top: -34px;
+      left: 14px; }
+      .best__content-number--1 {
+        background-position: 0 0; }
+      .best__content-number--2 {
+        background-position: -56px 0; }
+      .best__content-number--3 {
+        background-position: -117px 0; }
+      .best__content-number--4 {
+        background-position: -185px 0; }
+      .best__content-number--5 {
+        background-position: -255px 0; }
+    .best__content-subtitle {
+      text-align: center;
+      margin-top: 15px; }
+      .best__content-subtitle-head {
+        color: #fff;
+        font-weight: bold;
+        margin-top: 12px; }
+      .best__content-subtitle-positions {
+        margin-top: 8px;
+        font-weight: bold;
+        font-size: 13px; }
+      .best__content-subtitle-position {
+        color: #7a7a7a; }
+      .best__content-subtitle-rate {
+        color: #fff; }
+
+.tournaments {
+  margin-top: 25px; }
+  .tournaments__content {
+    width: 1400px;
+    margin: 0 auto; }
+    .tournaments__content-main {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px; }
+    .tournaments__content-left {
+      height: 100%;
+      width: 73%; }
+  .tournaments__battle {
+    width: 100%;
+    background-color: #202938;
+    border-radius: 10px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .tournaments__battle-left {
+      width: 60%;
+      height: 100%; }
+    .tournaments__battle-right {
+      width: 35%;
+      height: 100%; }
+    .tournaments__battle-title {
+      color: #fff;
+      margin-bottom: 5px; }
+    .tournaments__battle-subtitle {
+      color: rgba(4, 150, 41, 0.993);
+      font-size: 13px;
+      font-weight: bold; }
+    .tournaments__battle-teams {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px; }
+    .tournaments__battle-flag {
+      width: 110px;
+      height: 110px;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 20px #8383ff; }
+      .tournaments__battle-flag--1 {
+        background-image: conic-gradient(#ff2b28 25%, #e73bf3 0); }
+      .tournaments__battle-flag--2 {
+        width: 150px;
+        height: 150px;
+        background-image: conic-gradient(red 25%, blue 0); }
+      .tournaments__battle-flag--3 {
+        background-image: conic-gradient(#eca819 25%, blue 0); }
+    .tournaments__battle-circle {
+      width: 95%;
+      height: 95%;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .tournaments__battle-circle--1 {
+        background: radial-gradient(circle, #9c091c 0, #e31c3b 50%, #323676 100%); }
+      .tournaments__battle-circle--2 {
+        background: radial-gradient(circle, #0658c6 0, #0c678a 50%, #000307 100%); }
+      .tournaments__battle-circle--3 {
+        background: radial-gradient(circle, #eca819 0, #eca819 50%, #000307 100%); }
+    .tournaments__battle-img {
+      width: 50%;
+      object-fit: cover; }
+    .tournaments__battle-info {
+      margin-top: 25px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px; }
+    .tournaments__battle-name {
+      color: #fff;
+      font-weight: bold; }
+    .tournaments__battle-count {
+      color: #7a7a7a;
+      font-size: 13px;
+      font-weight: bold; }
+    .tournaments__battle-sward {
+      width: 50px; }
+    .tournaments__battle-progress {
+      width: 100%;
+      height: 15px;
+      background-color: #111a23;
+      border-radius: 15px;
+      margin-top: 30px; }
+      .tournaments__battle-progress-percent {
+        width: 70%;
+        background: linear-gradient(120deg, yellow 0%, #e4ec7f 50%, #ffffb7 70%);
+        border-radius: 15px;
+        height: 100%;
+        font-size: 11px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+    .tournaments__battle-thead {
+      width: 100%;
+      height: 35px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      .tournaments__battle-thead-icon {
+        width: 35px;
+        height: 100%;
+        border-radius: 5px;
+        background-color: #0761dc;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px; }
+      .tournaments__battle-thead-group {
+        width: 75%;
+        height: 100%;
+        background-color: #0761dc;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: bold;
+        font-size: 15px; }
+    .tournaments__battle-items {
+      margin-top: 15px; }
+    .tournaments__battle-item {
+      height: 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 15px;
+      background-color: #111a23;
+      border-radius: 5px;
+      margin-top: 5px; }
+      .tournaments__battle-item.active {
+        background-color: #9b061c; }
+        .tournaments__battle-item.active .tournaments__battle-number,
+        .tournaments__battle-item.active .tournaments__battle-scores {
+          background-color: #710819; }
+      .tournaments__battle-item:hover {
+        background-color: #a41b2f;
+        cursor: pointer; }
+        .tournaments__battle-item:hover .tournaments__battle-number,
+        .tournaments__battle-item:hover .tournaments__battle-scores {
+          background-color: #710819; }
+    .tournaments__battle-kings {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 15px;
+      height: 100%; }
+    .tournaments__battle-number, .tournaments__battle-scores {
+      width: 30px;
+      height: 100%;
+      background-color: #202938;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      border-radius: 3px;
+      font-size: 12px;
+      font-weight: bold; }
+    .tournaments__battle-rate {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      height: 100%; }
+    .tournaments__battle-image, .tournaments__battle-coins {
+      width: 23px;
+      object-fit: cover; }
+    .tournaments__battle-nameteam, .tournaments__battle-count {
+      color: #fff;
+      font-weight: bold;
+      font-size: 14px; }
+  .tournaments__info-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #202938;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; }
+  .tournaments__info-game {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px; }
+  .tournaments__info-pic {
+    width: 80px; }
+  .tournaments__info-description {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px; }
+  .tournaments__info-team {
+    color: #fff;
+    font-weight: bold; }
+  .tournaments__info-count {
+    color: #7a7a7a;
+    font-size: 11px; }
+  .tournaments__info-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: relative; }
+    .tournaments__info-name::before {
+      content: "";
+      width: 2px;
+      height: 100px;
+      background-color: #7a7a7a;
+      position: absolute;
+      left: -50px;
+      transform: rotate(20deg); }
+  .tournaments__info-key {
+    color: #fff;
+    font-weight: bold; }
+  .tournaments__info-value {
+    color: #7a7a7a;
+    font-weight: bold; }
+  .tournaments__info-percent {
+    width: 50px; }
+  .tournaments__info-bg1 {
+    width: 150px;
+    height: 100%;
+    background: linear-gradient(110deg, #7e30a0 0, #7e30a0 28%, #d338f8 28%, #d338f8 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: polygon(30% 0, 100% 0, 100% 100%, 0 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Rubik", sans-serif; }
+    .tournaments__info-bg1.bg2 {
+      background: linear-gradient(110deg, #3379d8 0, #3379d8 28%, #0761dc 28%, #0761dc 100%); }
+  .tournaments__info-more {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #0761dc;
+    margin-top: 10px;
+    border-radius: 10px; }
+  .tournaments__closing {
+    height: 100%;
+    width: 25%;
+    background-color: #202938;
+    border-radius: 10px;
+    padding: 25px; }
+    .tournaments__closing-title {
+      color: #fff;
+      font-size: 25px;
+      margin-bottom: 10px;
+      line-height: 35px; }
+    .tournaments__closing-subtitle {
+      font-size: 16px;
+      color: rgba(4, 150, 41, 0.993);
+      font-weight: bold; }
+    .tournaments__closing-items {
+      margin-top: 30px; }
+    .tournaments__closing-item {
+      margin-bottom: 35px; }
+    .tournaments__closing-teams {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+    .tournaments__closing-names {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 25px; }
+    .tournaments__closing-name {
+      font-size: 20px;
+      font-weight: bold;
+      color: #fff;
+      margin-bottom: 5px; }
+    .tournaments__closing-number {
+      font-weight: bold;
+      font-size: 14px;
+      color: #7a7a7a; }
+    .tournaments__closing-score span {
+      font-size: 23px;
+      font-weight: bold;
+      font-family: "Rubik", sans-serif;
+      color: #fff;
+      letter-spacing: 4px;
+      position: relative;
+      top: -30px; }
+    .tournaments__closing-link {
+      width: 100%;
+      padding: 15px 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(to right, #bf953f, #fcf6ba, #b38728, #fbf5b7, #aa771c);
+      cursor: pointer;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: all 0.2s ease-in; }
+      .tournaments__closing-link:hover {
+        background: linear-gradient(to right, #facd7b, #fceabb, #e0bd7c);
+        letter-spacing: 4px; }
+
+.streams {
+  width: 100%;
+  margin-top: 35px; }
+  .streams__content {
+    width: 1400px;
+    margin: 0 auto; }
+    .streams__content-main {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+      height: 500px; }
+    .streams__content-left {
+      height: 100%;
+      background-color: #202938;
+      width: 70%;
+      border-radius: 10px;
+      padding: 25px;
+      position: relative;
+      overflow: hidden; }
+    .streams__content-pic {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+      position: relative;
+      overflow: hidden; }
+      .streams__content-pic:hover {
+        cursor: pointer; }
+        .streams__content-pic:hover .streams__content-card {
+          top: 0; }
+        .streams__content-pic:hover .streams__content-img {
+          transform: scale(1.2); }
+    .streams__content-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: all 0.6s ease-in; }
+    .streams__content-card {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(120deg, #4375b2 39%, #a43337 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 60px;
+      font-weight: bold;
+      letter-spacing: 20px;
+      color: #fff;
+      position: absolute;
+      right: 0;
+      top: 100%;
+      transition: all 0.6s ease-in;
+      opacity: 0.6; }
+    .streams__content-right {
+      height: 100%;
+      width: 28%; }
+    .streams__content-item {
+      width: 100%;
+      height: 49%;
+      background-color: #202938;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 15px;
+      position: relative; }
+      .streams__content-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px; }
+    .streams__content-text {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px; }
+    .streams__content-title {
+      font-size: 13px;
+      color: #fff;
+      font-weight: bold; }
+    .streams__content-subtitle {
+      font-size: 11px;
+      color: #fff;
+      font-weight: bold; }
+    .streams__content-play {
+      width: 45px;
+      height: 45px;
+      background-color: #0761dc;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      margin: auto;
+      box-shadow: 0 0 15px #8383ff; }
+    .streams__content-icon {
+      color: #fff;
+      font-size: 15px; }
+    .streams__content-discount {
+      width: 250px;
+      height: 55px;
+      background-color: #ffef00;
+      clip-path: polygon(25% 0, 75% 0, 100% 100%, 0 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      position: absolute;
+      top: 12px;
+      right: -64px;
+      transform: rotate(33deg); }
+
+.footer {
+  width: 100%;
+  padding: 30px 0;
+  height: 200px;
+  margin-top: 25px;
+  background-color: #202938; }
+  .footer__content {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .footer__content-pic {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 20px; }
+    .footer__content-img {
+      width: 150px; }
+    .footer__content-sublogo {
+      color: #fff;
+      font-weight: bold;
+      font-size: 18px; }
+    .footer__content-list, .footer__content-copy {
+      display: flex;
+      gap: 25px;
+      font-size: 16px;
+      color: #7a7a7a;
+      font-weight: bold; }
+    .footer__content-socialmedia {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px; }
+    .footer__content-social {
+      width: 45px;
+      height: 45px;
+      background-color: #111a23;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 0 5px #8383ff;
+      transition: all 0.4s ease-in; }
+      .footer__content-social:hover {
+        cursor: pointer;
+        transform: translateY(-5px); }
+        .footer__content-social:hover .footer__content-icon {
+          transform: rotateY(360deg);
+          color: #0761dc; }
+    .footer__content-icon {
+      color: #fff;
+      font-size: 20px;
+      transition: all 0.4s ease-in; }
+
+.dev-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .dev-title__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; }
+  .dev-title__item {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    padding-top: 10px; }
+    .dev-title__item.active {
+      color: #0761dc;
+      border-top: 2px solid #0761dc; }
+  .dev-title__btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; }
+  .dev-title__btn {
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px; }
+    .dev-title__btn.active {
+      background-color: #0761dc; }
+
+.main {
+  display: flex; }
+
+.devgame {
+  width: 83%; }

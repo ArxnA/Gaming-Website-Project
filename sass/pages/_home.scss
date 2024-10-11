@@ -1,0 +1,10 @@
+.main {
+  width: 100%;
+  display: flex;
+}
+.devgame {
+  width: 83%;
+  @include Responsive(phoneL) {
+    width: 100%;
+  }
+}

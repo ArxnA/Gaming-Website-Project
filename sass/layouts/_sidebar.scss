@@ -1,0 +1,231 @@
+//! Start SideBar Styles
+.sidebar {
+  &__close {
+    display: none;
+    @include Responsive(phoneL) {
+      display: flex;
+    }
+    &-text {
+      @include centerizeTag();
+      width: 3rem;
+      height: 3rem;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      border-radius: 100%;
+      border: 0.2rem solid red;
+    }
+    &-icon {
+      color: red;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+  }
+  @include Responsive(phoneL) {
+    position: absolute;
+    left: -100rem;
+    width: 40%;
+    z-index: 23;
+    height: auto;
+  }
+  @include Responsive(phone) {
+    width: 55%;
+  }
+  width: 17%;
+  background-color: $color-primary;
+  padding-bottom: 1.5rem;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  right: 0;
+  border-radius: 0 1.5rem 1.5rem 0;
+  //!playToo SideBar Styles
+  &__playtoo {
+    position: relative;
+    padding: 2.5rem;
+    @include centerizeTag();
+    flex-direction: column;
+    &-pic {
+      width: 55%;
+      min-width: 4rem;
+    }
+    &-text {
+      color: $color-white;
+      font-size: 3.5rem;
+      margin-top: 1.5rem;
+      font-family: $font-rubik;
+      @include Responsive(phoneL) {
+        font-size: 3rem;
+      }
+    }
+  }
+  //!filter SideBar Styles
+  &__filter {
+    border-bottom: 0.3rem solid $color-black;
+    &-title {
+      width: 95%;
+      padding: 2rem;
+      background-color: $color-secondary;
+      border-radius: 0 0.5rem 0.5rem 0;
+    }
+    &-text {
+      color: #fff;
+      display: block;
+      text-align: right;
+      font-size: 1.8rem;
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      @include Responsive(phoneL) {
+        font-size: 1.5rem;
+      }
+    }
+    &-list {
+      width: 100%;
+    }
+    &-items {
+      width: 80%;
+      margin: 1.5rem auto;
+      @include Responsive(tablet) {
+        margin: 0.5rem auto;
+        width: 95%;
+      }
+    }
+    &-item {
+      width: 100%;
+      padding: 1rem 0;
+      @include centerizeTag(center, flex-start);
+      opacity: 0.6;
+      gap: 1rem;
+      color: $color-filter;
+      transition: all 0.3s ease-in;
+
+      &:hover {
+        color: $color-white;
+        opacity: 1;
+        cursor: pointer;
+      }
+    }
+    &-icon {
+      width: 4.5rem;
+      height: 5rem;
+      background: url(../../public/images/sidebar-slider.png) no-repeat;
+      background-size: cover;
+      &--1 {
+        background-position: -4.3rem 0rem;
+      }
+      &--2 {
+        background-position: 0 0;
+      }
+      &--3 {
+        background-position: -15.8rem 0;
+      }
+      &--4 {
+        background-position: -8rem 0;
+      }
+      &--5 {
+        background-position: -11.7rem 0;
+      }
+      @include Responsive(tablet) {
+        &--2 {
+          background-position: -0.9rem 0;
+          width: 4rem;
+          height: 4.5rem;
+        }
+      }
+      @include Responsive(phoneL) {
+        &--2 {
+          width: 4.5rem;
+          height: 5rem;
+          background-position: 0 0;
+        }
+      }
+    }
+    &-description {
+      font-size: 1.4rem;
+      font-weight: 600;
+      @include Responsive(phoneL) {
+        font-size: 1.2rem;
+      }
+    }
+  }
+  //!friends SideBar Styles
+  &__friends {
+    padding: 2.5rem 0;
+    &-content {
+      width: 80%;
+      margin: 1rem auto;
+    }
+    &-head {
+      width: 100%;
+      color: $color-white;
+    }
+    &-items {
+      margin-top: 1.5rem;
+    }
+    &-item {
+      width: 100%;
+      @include centerizeTag(space-between);
+      margin-bottom: 1.5rem;
+    }
+    &-info {
+      @include centerizeTag(flex-start);
+      gap: 1.5rem;
+    }
+    &-image {
+      width: 4.5rem;
+      height: 4.5rem;
+      border: 0.1rem solid $color-white;
+      border-radius: 50%;
+      @include centerizeTag();
+      @include Responsive(tablet) {
+        width: 4.2rem;
+        height: 4.2rem;
+      }
+    }
+    &-pic {
+      width: 93%;
+      height: 93%;
+    }
+    &-text {
+      color: $color-filter;
+      font-size: 1.4rem;
+      @include Responsive(tablet) {
+        font-size: 1.2rem;
+      }
+    }
+    &-box {
+      width: 6rem;
+      @include centerizeTag();
+    }
+    &-icon {
+      font-size: 1.5rem;
+      color: $color-filter;
+      @include Responsive(tablet) {
+        font-size: 1.2rem;
+      }
+    }
+    &-circle {
+      width: 1.2rem;
+      height: 1.2rem;
+      background-color: green;
+      border-radius: 100%;
+    }
+  }
+  //!rocket SideBar Styles
+  &__rocket {
+    width: 80%;
+    margin: 1.5rem auto;
+    overflow: hidden;
+    transition: all 0.2s ease-in;
+    &:hover {
+      border: 0.1rem solid $color-secondary;
+      padding: 0.4rem;
+      cursor: pointer;
+      border-radius: 1rem;
+    }
+    &-pic {
+      width: 100%;
+      border-radius: 1rem;
+    }
+  }
+}

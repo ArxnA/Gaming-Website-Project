@@ -1,0 +1,32 @@
+//!------------------- Width Project --------------------------//
+.container2xl {
+  width: 80vw;
+  margin: auto;
+  @include Responsive(tablet) {
+    width: 98vw;
+  }
+}
+
+//!------------------- Position Class --------------------------//
+
+.position-center {
+  @include positionCenter();
+}
+
+//!------------------- Font-Size Class --------------------------//
+
+.text-justify {
+  text-align: justify;
+}
+
+//!------------------- ellipsis Class --------------------------//
+
+.ellipsis-1 {
+  @include lineBreak(1);
+}
+.ellipsis-2 {
+  @include lineBreak();
+}
+.ellipsis-3 {
+  @include lineBreak(3);
+}
